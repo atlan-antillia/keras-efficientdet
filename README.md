@@ -57,6 +57,7 @@ This project is released under the Apache License. Please take their licenses in
 <b>
 keras-efficientdet>python TrainConfigGenerator.py project dataset 
 </b>
+<br>
 Example:
 <br>
 keras-efficientdet>python TrainConfigGenerator.py demo BloodCells 
