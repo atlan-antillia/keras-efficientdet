@@ -102,3 +102,7 @@ Example:
 keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCells/test ../projects/demo/BloodCells
 
 
+<br>
+<br>
+<src img ="./BloodCells_object_detection_output.png" width="80%" height="auto">
+
