@@ -87,6 +87,10 @@ Example:
 keras-efficientdet>python EfficientDetFinetuningModel.py ../projects/demo/BloodCells/config/1_B_8_L_0.0001_P_15_E_300_D_0.config
 
 
+<br>
+<img src="./ObjectDetectionTrainingMonitor.png" width="100%" height="auto">
+<br>
+<br>
 ### Detect objects by EfficientDetObjectDetector.py
 
  Run the following command to detect objects in an image by using a model
