@@ -61,8 +61,9 @@ keras-efficientdet>python TrainConfigGenerator.py project dataset
 Example:
 <br>
 keras-efficientdet>python TrainConfigGenerator.py demo BloodCells 
-
-
+<br>
+ On BloodCells dataset, see Roboflow public dataset BCCD (https://public.roboflow.com/object-detection/bccd)
+<br>
 By running the above command, configration file will be generated in <i>config</i> folder under the dataset folder.
 
     work/
