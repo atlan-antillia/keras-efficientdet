@@ -16,7 +16,7 @@ This project is released under the Apache License. Please take their licenses in
 - TrainConfig.py
 - TrainConfigGenerator.py
 - TrainConfigParser.py
-- TrainingResultWriter.py## Deploy p
+- TrainingResultWriter.py
 
 ### Create projects folder
 
