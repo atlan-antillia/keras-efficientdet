@@ -104,5 +104,5 @@ keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCe
 
 <br>
 <br>
-<img src="./BloodCells_object_detection_output.png" width="80%" height="auto">
+<img src="./BloodCells_object_detection_output.png" width="100%" height="auto">
 
