@@ -53,10 +53,12 @@ This project is released under the Apache License. Please take their licenses in
 
  In keras-efficientdet folder, please run the follwing command in terminal console 
  to create configuration files.
+<br>
 <b>
 keras-efficientdet>python TrainConfigGenerator.py project dataset 
 </b>
 Example:
+<br>
 keras-efficientdet>python TrainConfigGenerator.py demo BloodCells 
 
 
@@ -74,11 +76,13 @@ By running the above command, configration file will be generated in <i>config</
 ### Train the dataset by EfficientDetFinetuningModel.py
  Run the following command to train your own dataset on the configuration file
 generated above.
+<br>
 <b>
 keras-efficientdet>python EfficientDetFinetuningModel.py configurationfile 
 </b>
 
 Example:
+<br>
 keras-efficientdet>python EfficientDetFinetuningModel.py ../projects/demo/BloodCells/config/1_B_8_L_0.0001_P_15_E_300_D_0.config
 
 
@@ -86,12 +90,14 @@ keras-efficientdet>python EfficientDetFinetuningModel.py ../projects/demo/BloodC
 
  Run the following command to detect objects in an image by using a model
 trained by EfficientDetFinetuningModel.
+<br>
 <b>
 keras-efficientdet>python EfficientDetObjectDetector.py image_file_or_dir dataset_dir 
 # 
 </b>
 
 Example:
+<br>
 keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCells/test ../projects/demo/BloodCells
 
 
