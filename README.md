@@ -151,16 +151,16 @@ The detected object image files will be saved into ../projects/demo/BloodCells/o
 This detector EfficientDetObjectDetector.py will generate a detected image, detected_objects_detail.csv, detected_objects_stats.csv
 for each image, as shown below.
 <br>
-<img src="./BloodImage_00044_jpg.rf.b0e2369642c5a7fa434ed8defa79e2ba.jpg" >
+<img src="./BloodImage_00044_jpg.rf.b0e2369642c5a7fa434ed8defa79e2ba.jpg" width="416" height="416">
 <br>
 <br>
 detected_objects_detail.csv
 <br>
-<img src="./Detected_objects_detail.csv.png" >
+<img src="./Detected_objects_detail.csv.png" width="886" height="498">
 <br>
 
 detected_objects_stats.csv
 <br>
-<img src="./Detected_objects_stats.csv.png">
+<img src="./Detected_objects_stats.csv.png" width="382" height="102">
 <br>
 
