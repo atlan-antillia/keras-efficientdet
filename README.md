@@ -2,12 +2,6 @@
 This is a simple extension of the implementation of [EfficientDet](https://github.com/xuannianz/EfficientDet) for object detection on Keras and Tensorflow. 
 On detail, please see: [EfficientDet](https://github.com/xuannianz/EfficientDet) 
 
-## About pretrained weights
-* The pretrained EfficientNet weights on imagenet are downloaded from [Callidior/keras-applications/releases](https://github.com/Callidior/keras-applications/releases)
-* The pretrained EfficientDet weights on coco are converted from the official release [google/automl](https://github.com/google/automl).
-
-Thanks for their hard work.
-This project is released under the Apache License. Please take their licenses into consideration too when use this project.
 
 **NEW Python Scripts [01/05/2021]**
 - EfficientDetFinetuningMode.py
@@ -158,11 +152,11 @@ for each image, as shown below.
 <br>
 detected_objects_detail.csv
 <br>
-<img src="./Detected_objects_detail.csv.png" width="886" height="498">
+<img src="./Detected_objects_detail.csv.png" width="443" height="249">
 <br>
 
 detected_objects_stats.csv
 <br>
-<img src="./Detected_objects_stats.csv.png" width="382" height="102">
+<img src="./Detected_objects_stats.csv.png" width="191" height="51">
 <br>
 
