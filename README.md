@@ -127,19 +127,20 @@ keras-efficientdet>python EfficientDetFinetuningModel.py ../projects/demo/BloodC
 <img src="./ObjectDetectionTrainingMonitor.png" width="100%" height="auto">
 <br>
 <br>
+
 ### Detect objects by EfficientDetObjectDetector.py
 
  Run the following command to detect objects in an image by using a model
 trained by EfficientDetFinetuningModel.
 <br>
 <b>
-keras-efficientdet>python EfficientDetObjectDetector.py image_file_or_dir dataset_dir 
-# 
+keras-efficientdet>python EfficientDetObjectDetector.py image_file_or_dir dataset_dir  
 </b>
 
 Example:
 <br>
 keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCells/test ../projects/demo/BloodCells
+<br>
 <br>
 The detected object image files will be saved into ../projects/demo/BloodCells/output folder.
 <br>
