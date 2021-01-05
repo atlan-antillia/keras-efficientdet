@@ -146,3 +146,18 @@ keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCe
 <br>
 <img src="./BloodCells_object_detection_output.png" width="100%" height="auto">
 
+<br><br>
+This detector EfficientDetObjectDetector.py will generate a detected image, detected_objects_detail.csv, detected_objects_stats.csv
+for each image, as shown below.
+<br>
+<img src="./BloodImage_00044_jpg.rf.b0e2369642c5a7fa434ed8defa79e2ba.jpg" width="100%" height="auto">
+<br>
+<br>
+detected_objects_detail.csv
+<img src="./Detected_objects_detail.csv.png" width="100%" height="auto">
+<br>
+
+detected_objects_stats.csv
+<img src="./Detected_objects_stats.csv.png" width="100%" height="auto">
+<br>
+
