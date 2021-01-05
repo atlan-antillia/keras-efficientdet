@@ -20,18 +20,20 @@ This project is released under the Apache License. Please take their licenses in
 
 ### Create projects folder
 
- Please create <i>projects</i> folder on your local work folder
+ Please create <i>projects</i> folder on your local work folder<br>
+<pre>
     work/
       + keras-efficientdet/
       + projects/
-
+</pre>
 
 ### Create a project folder and deploy a dataset 
 
  Please create your own <i>demo</i> folder under the <i>projects</i> folder,
    and a <i> dataset</i> folder which contains <i>train</i>, <i>valid</i>, <i>test</i> folders.
    Those folders contain coco-annotation files and jpg image files.
-
+Currently, the supported annotation file format is the coco-annotation format only.
+<pre>
     work/
       + keras-efficientdet/
       + projects/
@@ -48,7 +50,7 @@ This project is released under the Apache License. Please take their licenses in
             + test/
                + _annotation.coco.json
                + something.jpg
-
+</pre>
 ### Generate a configuration file
 
  In keras-efficientdet folder, please run the follwing command in terminal console 
@@ -65,7 +67,7 @@ keras-efficientdet>python TrainConfigGenerator.py demo BloodCells
  On BloodCells dataset, see Roboflow public dataset BCCD (https://public.roboflow.com/object-detection/bccd)
 <br>
 By running the above command, configration file will be generated in <i>config</i> folder under the dataset folder.
-
+<pre>
     work/
       + keras-efficientdet/
       + projects/
@@ -73,8 +75,9 @@ By running the above command, configration file will be generated in <i>config</
           + BloodCells/
             + config/
                1_B_8_L_0.0001_P_15_E_300_D_0.config
+</pre>
 <br>
-The generated config file will be in the following form.
+The generated config file will be in the following format.
 
 <pre>
 [project]
@@ -117,11 +120,10 @@ generated above.
 <b>
 keras-efficientdet>python EfficientDetFinetuningModel.py configurationfile 
 </b>
-
+<br>
 Example:
 <br>
 keras-efficientdet>python EfficientDetFinetuningModel.py ../projects/demo/BloodCells/config/1_B_8_L_0.0001_P_15_E_300_D_0.config
-
 
 <br>
 <img src="./ObjectDetectionTrainingMonitor.png" width="100%" height="auto">
@@ -136,7 +138,7 @@ trained by EfficientDetFinetuningModel.
 <b>
 keras-efficientdet>python EfficientDetObjectDetector.py image_file_or_dir dataset_dir  
 </b>
-
+<br>
 Example:
 <br>
 keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCells/test ../projects/demo/BloodCells
