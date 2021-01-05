@@ -73,6 +73,41 @@ By running the above command, configration file will be generated in <i>config</
           + BloodCells/
             + config/
                1_B_8_L_0.0001_P_15_E_300_D_0.config
+<br>
+The generated config file will be in the following form.
+
+<pre>
+[project]
+name = demo
+owner = {OWNER}
+
+[model]
+dataset_name = BloodCells
+num_classes = 3
+classes = ['Platelets', 'RBC', 'WBC']
+efficient_det = 0
+config_dir = ../projects/{PROJECT}/{DATASET_NAME}/config
+models = ../projects/demo/BloodCells/models
+best_model = ../projects/demo/BloodCells/best_model
+
+[train_config]
+batch_size = 8
+epochs = 300
+learning_rate = 0.0001
+
+[early_stopping]
+patience = 15
+
+[train]
+train_data_path = ../projects/demo/BloodCells/train
+
+[valid]
+valid_data_path = ../projects/demo/BloodCells/valid
+
+[test]
+test_data_path = ../projects/demo/BloodCells/test
+
+</pre>
 
 
 ### Train the dataset by EfficientDetFinetuningModel.py
