@@ -140,8 +140,8 @@ keras-efficientdet>python EfficientDetObjectDetector.py image_file_or_dir datase
 Example:
 <br>
 keras-efficientdet>python EfficientDetObjectDetector.py ../projects/demo/BloodCells/test ../projects/demo/BloodCells
-
-
+<br>
+The detected object image files will be saved into ../projects/demo/BloodCells/output folder.
 <br>
 <br>
 <img src="./BloodCells_object_detection_output.png" width="100%" height="auto">
@@ -154,10 +154,12 @@ for each image, as shown below.
 <br>
 <br>
 detected_objects_detail.csv
+<br>
 <img src="./Detected_objects_detail.csv.png" >
 <br>
 
 detected_objects_stats.csv
+<br>
 <img src="./Detected_objects_stats.csv.png">
 <br>
 
