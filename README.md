@@ -4,13 +4,13 @@ On detail, please see: [EfficientDet](https://github.com/xuannianz/EfficientDet)
 
 
 **NEW Python Scripts [01/05/2021]**
-- EfficientDetFinetuningMode.py
-- EfficientDetObjectDetector.py
-- EpochChangeCallback.py
-- TrainConfig.py
-- TrainConfigGenerator.py
-- TrainConfigParser.py
-- TrainingResultWriter.py
+- <a href="./EfficientDetFinetuningModel.py">EfficientDetFinetuningModel.py</a>
+- <a href="./EfficientDetObjectDetector.py">EfficientDetObjectDetector.py</a>
+- <a href="./EpochChangeCallback.py">EpochChangeCallback.py</a>
+- <a href="./TrainConfig.py">TrainConfig.py</a>
+- <a href="./TrainConfigGenerator.py">TrainConfigGenerator.py</a>
+- <a href="./TrainConfigParser.py">TrainConfigParser.py</a>
+- <a href="./TrainingResultWriter.py">TrainingResultWriter.py</a>
 
 ### Create projects folder
 
@@ -68,7 +68,7 @@ By running the above command, configration file will be generated in <i>config</
         + demo/
           + BloodCells/
             + config/
-               1_B_8_L_0.0001_P_15_E_300_D_0.config
+              + 1_B_8_L_0.0001_P_15_E_300_D_0.config
 </pre>
 <br>
 The generated config file will be in the following format.
